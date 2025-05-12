@@ -7,6 +7,7 @@ import Offsets_projects from './components/offsets_projects'
 import Trust_makers from './components/trust_makers'
 import Final_CTA from './components/Final_CTA'
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
+import { Heading1 } from 'lucide-react'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='about' element={<Trust_makers />}/>
           <Route path='calculator' element={<Final_CTA />}/>
           <Route path='contact' element={<Footer />}/>
+          <Route path="*" element={<h1>Error occured</h1>}/>
         </Routes>
       </BrowserRouter>
     </div>
