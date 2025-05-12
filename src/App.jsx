@@ -12,13 +12,7 @@ function App() {
   return (
     <div className='app'>
       <BrowserRouter>
-          <Navbar/>
-          {/* <Home/>
-          <Working/>
-          <Offsets_projects/>
-          <Trust_makers/>
-          <Final_CTA/>
-          <Footer/> */}
+        <Navbar/>
         <Routes>
           <Route index element={<Home />} />
           <Route path='how-it-works' element={<Working />}/>
