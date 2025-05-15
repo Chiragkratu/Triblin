@@ -29,6 +29,14 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    background: linear-gradient(to right, rgb(12, 39, 246), #0ef344); /* Adjust green shade as needed */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 1000;
+    font-style: bold;
   }
   
   .nav-menu {
@@ -36,10 +44,16 @@
     align-items: center;
     list-style: none;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
   }
   
   .nav-item {
     margin: 0 1rem;
+    background-color: #7cf899;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
   }
   
   .nav-link {

@@ -1,22 +1,36 @@
   .features {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5rem;
+    padding: 30px;
     margin-top: 3rem;
   }
 
+  .section-title{
+    background: linear-gradient(to right, rgb(12, 39, 246), #0ef344); /* Adjust green shade as needed */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 1000;
+    font-style: bold;
+  }
   .section-subtitle{
     font-size: 20px;
     font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .feature-card {
-    background-color: rgb(76, 139, 76);
     border-radius: 8px;
     padding: 2.5rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style:italic;
   }
   
   .feature-card:hover {

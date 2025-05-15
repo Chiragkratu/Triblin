@@ -28,7 +28,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <img src="/api/placeholder/120/40" alt="Triblin Logo" />
+          Triblin
         </Link>
 
         <div className="menu-icon" onClick={toggleMenu}>
@@ -48,7 +48,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link to="/calculator" className="nav-link" onClick={() => setIsOpen(false)}>
-              Event Carbon Calculator
+              Offset Your Event
             </Link>
           </li>
           <li className="nav-item">

@@ -8,7 +8,7 @@ const working = () => {
     <div className='working'>
       <section className="section what-we-do">
         <div className="container">
-          <h2 className="section-title">Simple Carbon Accounting for Events</h2>
+          <h2 className="section-title">Make Your Event Climate-Neutral. In Minutes.</h2>
           <p className="section-subtitle">
             Triblin lets you estimate emissions for your event and offset them with verified climate projects. 
             <br />No spreadsheets. No consultants. Just fast, trusted climate action.
